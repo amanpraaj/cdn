@@ -1,0 +1,10 @@
+{
+    "success": false,
+    "error": {
+        "message": "Requested file was not found.",
+        "code": "NOT_FOUND",
+        "pathname": "/cdn/assets/scripts/lazy."
+    },
+    "statusCode": 404,
+    "timestamp": "2023-08-13T13:52:00.794Z"
+}
