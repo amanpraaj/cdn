@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-    <h1>You are mine ❤️?</h1>
+    <h1>You are mine <3?</h1>
     <button class="button" id="yesButton">Yes</button>
     <button class="button" id="noButton">No</button>
 
@@ -30,7 +30,7 @@
             button.style.top = y + "px";
         });
         document.getElementById("yesButton").addEventListener("click", function() {
-            showMessage("Muje to pta hi tha 🙈");
+            showMessage("Muje to pta hi tha ^-^ ");
         });
     </script>
 </body>
