@@ -45,17 +45,17 @@
 <body>
 	<div>
 		<h3>Code by <u></u></h3>
-		<button onclick="run()">Start</button>
+		<button onclick="run()">Start !</button>
 	</div>
 	<script type="text/javascript">
 		//var btn = document.getElementById('btn1');
 		var i = 1;
-		var result;
+		var j=Math.random().toString(36).substring(2, 14);;
 		function run() {
 			console.log(i);
 			console.log("Hello World", i);
 			j = Math.random().toString(36).substring(2, 14);
-			console.log(`Search is : ${j, i}`);
+			console.log(`Search is : ${j}`);
 			open(`https://www.bing.com/search?q=${j}`, `_self`)
 			i++;
 			setInterval(run(), 5000);
